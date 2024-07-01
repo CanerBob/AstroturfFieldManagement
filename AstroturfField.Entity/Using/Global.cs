@@ -1,0 +1,1 @@
+﻿global using AstroturfField.Core.Entities;
