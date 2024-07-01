@@ -1,5 +1,5 @@
 ﻿namespace AstroturfField.Entity.Entities;
-public class Reservation
+public class Reservation: EntityBase
 {
 	public Guid ArtificialTurfId { get; set; }
     public ArtificialTurf ArtificialTurf { get; set; }
