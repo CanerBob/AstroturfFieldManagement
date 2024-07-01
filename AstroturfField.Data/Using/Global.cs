@@ -5,3 +5,7 @@ global using Microsoft.Extensions.DependencyInjection;
 global using AstroturfField.Data.Context;
 global using Microsoft.EntityFrameworkCore.Metadata.Builders;
 global using System.Reflection;
+global using AstroturfField.Core.Entities;
+global using AstroturfField.Data.Repositories.Abstract;
+global using System.Linq.Expressions;
+global using AstroturfField.Data.Repositories.Concrete;
