@@ -7,4 +7,9 @@ public class AppDbContext : DbContext
     public DbSet<City> Cities { get; set; }
     public DbSet<FootbalEquipment> FootbalEquipments { get; set; }
     public DbSet<Reservation> Reservations { get; set; }
+	protected override void OnModelCreating(ModelBuilder modelBuilder)
+	{
+		base.OnModelCreating(modelBuilder);
+		modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+	}
 }
